@@ -4,8 +4,8 @@ import future.keywords.in
 
 import data.permit.generated.abac.utils.attributes
 
-default resourceset__5f_5fautogen_5ftest = false
+default userset__5f_5fautogen_5fTeacher = false
 
-resourceset__5f_5fautogen_5ftest {
-	attributes.resource.type == "test"
+userset__5f_5fautogen_5fTeacher {
+	"Teacher" in attributes.user.roles
 }
